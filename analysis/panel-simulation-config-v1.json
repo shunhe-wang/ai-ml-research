@@ -1,0 +1,107 @@
+{
+  "replications": 5000,
+  "scenarios": [
+    {
+      "directional_risk_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "name": "homogeneous_null"
+    },
+    {
+      "directional_risk_differences": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "name": "homogeneous_positive_5pp"
+    },
+    {
+      "directional_risk_differences": [
+        0.08,
+        0.04,
+        0.07,
+        -0.05,
+        0.08,
+        0.08
+      ],
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "name": "positive_mean_5pp_one_reversal"
+    },
+    {
+      "directional_risk_differences": [
+        0.08,
+        0.08,
+        0.08,
+        -0.08,
+        -0.08,
+        -0.08
+      ],
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "name": "balanced_sign_heterogeneity"
+    },
+    {
+      "directional_risk_differences": [
+        -0.05,
+        0.03,
+        0.08,
+        -0.12,
+        0.05,
+        0.01
+      ],
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "name": "shrunk_pilot_sign_heterogeneity"
+    }
+  ],
+  "seed": 2026071739,
+  "targets_per_cell": [
+    60,
+    120,
+    240,
+    400
+  ]
+}

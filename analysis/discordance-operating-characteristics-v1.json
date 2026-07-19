@@ -1,0 +1,528 @@
+{
+  "config": {
+    "replications": 5000,
+    "seed": 2026071735
+  },
+  "results": [
+    {
+      "bias": -0.0004166666666666667,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.04997666666666666,
+      "mean_estimate": -0.0004166666666666667,
+      "rejection_rate": 0.0122,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0001783333333333359,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.049865,
+      "mean_estimate": 0.029821666666666663,
+      "rejection_rate": 0.248,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.0003983333333333408,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.04960166666666666,
+      "mean_estimate": 0.04960166666666666,
+      "rejection_rate": 0.7216,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.000215,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.10010166666666666,
+      "mean_estimate": -0.000215,
+      "rejection_rate": 0.0238,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0001166666666666677,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0996,
+      "mean_estimate": 0.02988333333333333,
+      "rejection_rate": 0.1804,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.0003916666666666721,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.099535,
+      "mean_estimate": 0.04960833333333333,
+      "rejection_rate": 0.4334,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0004600000000000021,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.09987333333333334,
+      "mean_estimate": 0.08046,
+      "rejection_rate": 0.866,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": 0.00027166666666667005,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.10027166666666668,
+      "mean_estimate": 0.10027166666666668,
+      "rejection_rate": 0.9954,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.0006833333333333334,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19944,
+      "mean_estimate": 0.0006833333333333334,
+      "rejection_rate": 0.0362,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0006233333333333368,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20017333333333334,
+      "mean_estimate": 0.030623333333333336,
+      "rejection_rate": 0.1392,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0005249999999999977,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19985166666666668,
+      "mean_estimate": 0.050525,
+      "rejection_rate": 0.2766,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00039666666666667016,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19941,
+      "mean_estimate": 0.08039666666666667,
+      "rejection_rate": 0.5658,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": -0.0001916666666666733,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19958499999999998,
+      "mean_estimate": 0.09980833333333333,
+      "rejection_rate": 0.7606,
+      "replications": 5000,
+      "targets": 120,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.00012583333333333332,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.04980416666666667,
+      "mean_estimate": 0.00012583333333333332,
+      "rejection_rate": 0.0294,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0003933333333333358,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.05018,
+      "mean_estimate": 0.030393333333333335,
+      "rejection_rate": 0.589,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.00011083333333333084,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.050110833333333334,
+      "mean_estimate": 0.050110833333333334,
+      "rejection_rate": 0.9942,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 4.999999999999999e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.09951666666666666,
+      "mean_estimate": 4.999999999999999e-05,
+      "rejection_rate": 0.036,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0001616666666666676,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.10024833333333333,
+      "mean_estimate": 0.030161666666666666,
+      "rejection_rate": 0.3664,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.00017333333333333784,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.09992000000000001,
+      "mean_estimate": 0.049826666666666665,
+      "rejection_rate": 0.7512,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.0003625000000000017,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0999925,
+      "mean_estimate": 0.0796375,
+      "rejection_rate": 0.9956,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": 0.00037500000000000033,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.100375,
+      "mean_estimate": 0.100375,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.00039166666666666663,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19963166666666665,
+      "mean_estimate": 0.00039166666666666663,
+      "rejection_rate": 0.0394,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0002391666666666653,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20053083333333335,
+      "mean_estimate": 0.029760833333333334,
+      "rejection_rate": 0.236,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.00013249999999999373,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20057083333333334,
+      "mean_estimate": 0.050132499999999997,
+      "rejection_rate": 0.4806,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0009041666666666642,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.2004175,
+      "mean_estimate": 0.08090416666666667,
+      "rejection_rate": 0.8586,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": -0.0003216666666666784,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19962,
+      "mean_estimate": 0.09967833333333333,
+      "rejection_rate": 0.9638,
+      "replications": 5000,
+      "targets": 240,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -2.8499999999999998e-05,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.0501445,
+      "mean_estimate": -2.8499999999999998e-05,
+      "rejection_rate": 0.0312,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0002165000000000014,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.0498055,
+      "mean_estimate": 0.029783499999999997,
+      "rejection_rate": 0.8304,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -4.200000000000731e-05,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.049957999999999995,
+      "mean_estimate": 0.049957999999999995,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -3.050000000000001e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0999795,
+      "mean_estimate": -3.050000000000001e-05,
+      "rejection_rate": 0.0366,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00032400000000000137,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.099776,
+      "mean_estimate": 0.029675999999999998,
+      "rejection_rate": 0.5434,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 7.449999999999818e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0998265,
+      "mean_estimate": 0.0500745,
+      "rejection_rate": 0.9342,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -3.200000000000425e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.099951,
+      "mean_estimate": 0.079968,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": -0.0005485000000000073,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0994515,
+      "mean_estimate": 0.0994515,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.000471,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.199941,
+      "mean_estimate": -0.000471,
+      "rejection_rate": 0.0336,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.00034650000000000306,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.2003235,
+      "mean_estimate": 0.030346500000000002,
+      "rejection_rate": 0.3416,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 3.799999999999637e-05,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19909300000000002,
+      "mean_estimate": 0.050038,
+      "rejection_rate": 0.687,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00011099999999999999,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20014300000000002,
+      "mean_estimate": 0.080111,
+      "rejection_rate": 0.974,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": -0.00026800000000000435,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.199659,
+      "mean_estimate": 0.099732,
+      "rejection_rate": 0.9988,
+      "replications": 5000,
+      "targets": 400,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 2.9749999999999995e-05,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.05006725,
+      "mean_estimate": 2.9749999999999995e-05,
+      "rejection_rate": 0.0404,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -7.224999999999593e-05,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.04996125,
+      "mean_estimate": 0.029927750000000003,
+      "rejection_rate": 0.987,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.00013625000000000442,
+      "discordance_probability": 0.05,
+      "mean_discordance_rate": 0.04986375,
+      "mean_estimate": 0.04986375,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00023650000000000003,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.099909,
+      "mean_estimate": 0.00023650000000000003,
+      "rejection_rate": 0.04,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 8.625000000000299e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.10003225,
+      "mean_estimate": 0.030086250000000002,
+      "rejection_rate": 0.8278,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 8.69999999999968e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.0998655,
+      "mean_estimate": 0.050087,
+      "rejection_rate": 0.9978,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 1.9000000000005124e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.1001125,
+      "mean_estimate": 0.080019,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": 1.6749999999995935e-05,
+      "discordance_probability": 0.1,
+      "mean_discordance_rate": 0.10001675,
+      "mean_estimate": 0.10001675,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 9.5e-05,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.200192,
+      "mean_estimate": 9.5e-05,
+      "rejection_rate": 0.0442,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.00013925000000000048,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20020074999999998,
+      "mean_estimate": 0.03013925,
+      "rejection_rate": 0.573,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 6.499999999999562e-05,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.199963,
+      "mean_estimate": 0.050065,
+      "rejection_rate": 0.9312,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -7.024999999999393e-05,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.20011675,
+      "mean_estimate": 0.07992975000000001,
+      "rejection_rate": 0.9998,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.08
+    },
+    {
+      "bias": -5.475000000000618e-05,
+      "discordance_probability": 0.2,
+      "mean_discordance_rate": 0.19985775,
+      "mean_estimate": 0.09994525,
+      "rejection_rate": 1.0,
+      "replications": 5000,
+      "targets": 800,
+      "true_risk_difference": 0.1
+    }
+  ]
+}

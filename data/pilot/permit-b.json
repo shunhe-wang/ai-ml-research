@@ -1,0 +1,1068 @@
+{
+  "case_set_hash": "8d664392d218864068fbb2ae0a536276104e5a8a47930619e827f54d26b7968e",
+  "items": [
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00000",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 507
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 7,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00001",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 500
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 0,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00003",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 501
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 1,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00004",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 494
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -6,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00005",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 508
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 8,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00006",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 506
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 6,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00007",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 498
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -2,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00008",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 10,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00009",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 2,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00010",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": false,
+          "safety_score": 504
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 4,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00011",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 505
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 5,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00012",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 496
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -4,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00013",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 499
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00014",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 503
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 2,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00015",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 500
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 0,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00016",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 500
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 0,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00017",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": true,
+          "has_insurance": false,
+          "restricted_zone": false,
+          "safety_score": 496
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "fraud_hard_block",
+        "trace": [
+          "fraud_hard_block"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00018",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": false,
+          "safety_score": 494
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -6,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00019",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": true,
+          "safety_score": 508
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 8,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00020",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 495
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -5,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00021",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": false,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 10,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00022",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 503
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 3,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00023",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 2,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00026",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": false,
+          "safety_score": 506
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 6,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00027",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 504
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 4,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00028",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 497
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -3,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00029",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 495
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -5,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00030",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 9,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00032",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 496
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -4,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00033",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 10,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00034",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": true,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 10,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00035",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 505
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 4,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00036",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": false,
+          "restricted_zone": true,
+          "safety_score": 498
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -2,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00038",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 2,
+        "rule_id": "permit_default_deny",
+        "trace": [
+          "permit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00055",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 501
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 1,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00059",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 504
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 4,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00075",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 503
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 2,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00100",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 509
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 9,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00102",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 501
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 0,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00105",
+        "facts": {
+          "emergency_waiver": false,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 505
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 5,
+        "rule_id": "general_permit",
+        "trace": [
+          "general_permit"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00109",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 505
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 4,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00122",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 501
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 0,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00156",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 509
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 8,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00170",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 510
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 9,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00174",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 1,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00176",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 1,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00180",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": false,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": true,
+          "safety_score": 502
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 1,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-permit-b-s2026071715-a00183",
+        "facts": {
+          "emergency_waiver": true,
+          "fee_paid": true,
+          "fraud_flag": false,
+          "has_insurance": true,
+          "restricted_zone": false,
+          "safety_score": 504
+        },
+        "world": "permit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 3,
+        "rule_id": "emergency_exception",
+        "trace": [
+          "emergency_exception"
+        ]
+      }
+    }
+  ],
+  "schema": {
+    "parameters": {
+      "minimum_safety_score": 500
+    },
+    "schema_id": "pilot-permit-b",
+    "world": "permit"
+  }
+}

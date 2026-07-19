@@ -1,0 +1,31 @@
+{
+  "case_set_hash": "d2a6eadc1486cb1b5bd965286b03fef85ff24aef46bc3cb1ac790e793a668590",
+  "case_set_path": "data/pilot/benefit-a.json",
+  "completed_at": "2026-07-17T13:00:51.524095+00:00",
+  "decoding": {
+    "max_tokens": 128,
+    "temperature": 0
+  },
+  "git_commit": "d8076c6e01b3d0bd168c655dd7cbadba270905f0",
+  "limit": 4,
+  "model_id": "mlx-community/Qwen3.5-4B-4bit@0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+  "model_path": ".tools/models/Qwen3.5-4B-4bit-0e7ffd5c",
+  "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+  "model_weight_sha256": "5fb9acd0246866381cf8c5c354c6db1019f6498eec4ccb4f5edcc71ffeacb2db",
+  "run_id": "smoke-qwen35-4b-benefit-20260717",
+  "runtime": {
+    "machine": "arm64",
+    "mlx": "0.32.0",
+    "mlx_lm": "0.31.3",
+    "python": "3.12.13 (main, May 10 2026, 19:20:41) [Clang 22.1.3 ]"
+  },
+  "started_at": "2026-07-17T13:00:33.788876+00:00",
+  "status": "local-smoke-not-confirmatory",
+  "summary": {
+    "decision_correct": 0,
+    "refusals": 0,
+    "schema_valid": 0,
+    "total": 4,
+    "transport_errors": 0
+  }
+}

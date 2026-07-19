@@ -1,0 +1,849 @@
+{
+  "config": {
+    "baseline": 0.5,
+    "replications": 500,
+    "seed": 20260717
+  },
+  "results": [
+    {
+      "bias": -0.001275,
+      "coverage": 0.95,
+      "mean_estimate": -0.001275,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.05,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0023000000000000004,
+      "coverage": 0.954,
+      "mean_estimate": -0.0023000000000000004,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.046,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00075,
+      "coverage": 0.954,
+      "mean_estimate": -0.00075,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.046,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0020000000000000018,
+      "coverage": 0.944,
+      "mean_estimate": 0.032,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.082,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.004125,
+      "coverage": 0.944,
+      "mean_estimate": 0.025875,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.066,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0008249999999999993,
+      "coverage": 0.948,
+      "mean_estimate": 0.030824999999999998,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.15,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.003850000000000006,
+      "coverage": 0.954,
+      "mean_estimate": 0.04615,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.074,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0014999999999999944,
+      "coverage": 0.942,
+      "mean_estimate": 0.0515,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.144,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00027499999999999747,
+      "coverage": 0.948,
+      "mean_estimate": 0.050275,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.288,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0038499999999999923,
+      "coverage": 0.936,
+      "mean_estimate": 0.10385,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.276,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 9.999999999998899e-05,
+      "coverage": 0.95,
+      "mean_estimate": 0.1001,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.414,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.0005750000000000061,
+      "coverage": 0.938,
+      "mean_estimate": 0.099425,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.72,
+      "replications": 500,
+      "targets": 80,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.0004833333333333333,
+      "coverage": 0.944,
+      "mean_estimate": 0.0004833333333333333,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.056,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.00045,
+      "coverage": 0.946,
+      "mean_estimate": 0.00045,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.054,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.002116666666666667,
+      "coverage": 0.946,
+      "mean_estimate": 0.002116666666666667,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.054,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.001350000000000004,
+      "coverage": 0.944,
+      "mean_estimate": 0.03135,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.09,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.002566666666666665,
+      "coverage": 0.938,
+      "mean_estimate": 0.027433333333333334,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.098,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.0012833333333333342,
+      "coverage": 0.936,
+      "mean_estimate": 0.028716666666666665,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.18,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.00208333333333334,
+      "coverage": 0.946,
+      "mean_estimate": 0.04791666666666666,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.114,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.00041666666666666935,
+      "coverage": 0.952,
+      "mean_estimate": 0.04958333333333333,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.166,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.000999999999999994,
+      "coverage": 0.944,
+      "mean_estimate": 0.051,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.476,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0028666666666666563,
+      "coverage": 0.952,
+      "mean_estimate": 0.10286666666666666,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.358,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.00031666666666665955,
+      "coverage": 0.942,
+      "mean_estimate": 0.10031666666666667,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.544,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.00019999999999999185,
+      "coverage": 0.956,
+      "mean_estimate": 0.1002,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.898,
+      "replications": 500,
+      "targets": 120,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.00026249999999999993,
+      "coverage": 0.938,
+      "mean_estimate": 0.00026249999999999993,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.062,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0033,
+      "coverage": 0.952,
+      "mean_estimate": 0.0033,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.048,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00045000000000000004,
+      "coverage": 0.958,
+      "mean_estimate": -0.00045000000000000004,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.042,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0012749999999999984,
+      "coverage": 0.946,
+      "mean_estimate": 0.028725,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.086,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.00014999999999999736,
+      "coverage": 0.948,
+      "mean_estimate": 0.02985,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.112,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.00041249999999999967,
+      "coverage": 0.952,
+      "mean_estimate": 0.0295875,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.274,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.003049999999999997,
+      "coverage": 0.964,
+      "mean_estimate": 0.05305,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.166,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00037500000000000033,
+      "coverage": 0.924,
+      "mean_estimate": 0.050375,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.204,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.001062499999999994,
+      "coverage": 0.94,
+      "mean_estimate": 0.0510625,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.578,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0010000000000000009,
+      "coverage": 0.956,
+      "mean_estimate": 0.101,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.442,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.0017250000000000043,
+      "coverage": 0.936,
+      "mean_estimate": 0.098275,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.612,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.0019000000000000128,
+      "coverage": 0.944,
+      "mean_estimate": 0.09809999999999999,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.964,
+      "replications": 500,
+      "targets": 160,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.004560000000000001,
+      "coverage": 0.95,
+      "mean_estimate": 0.004560000000000001,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.05,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0010200000000000003,
+      "coverage": 0.958,
+      "mean_estimate": -0.0010200000000000003,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.042,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00037,
+      "coverage": 0.95,
+      "mean_estimate": -0.00037,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.05,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.00012000000000000205,
+      "coverage": 0.936,
+      "mean_estimate": 0.03012,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.116,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0024200000000000055,
+      "coverage": 0.94,
+      "mean_estimate": 0.032420000000000004,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.152,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0008799999999999988,
+      "coverage": 0.962,
+      "mean_estimate": 0.030879999999999998,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.346,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.001579999999999998,
+      "coverage": 0.95,
+      "mean_estimate": 0.048420000000000005,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.162,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.004019999999999996,
+      "coverage": 0.958,
+      "mean_estimate": 0.04598000000000001,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.218,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0009100000000000011,
+      "coverage": 0.96,
+      "mean_estimate": 0.050910000000000004,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.662,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0012799999999999895,
+      "coverage": 0.942,
+      "mean_estimate": 0.10128,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.534,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.0014000000000000123,
+      "coverage": 0.952,
+      "mean_estimate": 0.0986,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.758,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.002019999999999994,
+      "coverage": 0.936,
+      "mean_estimate": 0.10202,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.988,
+      "replications": 500,
+      "targets": 200,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.0005333333333333333,
+      "coverage": 0.942,
+      "mean_estimate": 0.0005333333333333333,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.058,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0015333333333333334,
+      "coverage": 0.946,
+      "mean_estimate": 0.0015333333333333334,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.054,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00039166666666666663,
+      "coverage": 0.958,
+      "mean_estimate": -0.00039166666666666663,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.042,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0028166666666666618,
+      "coverage": 0.96,
+      "mean_estimate": 0.03281666666666666,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.092,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0012416666666666687,
+      "coverage": 0.95,
+      "mean_estimate": 0.031241666666666668,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.136,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0012333333333333363,
+      "coverage": 0.954,
+      "mean_estimate": 0.031233333333333335,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.434,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.002433333333333329,
+      "coverage": 0.938,
+      "mean_estimate": 0.05243333333333333,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.204,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.0010333333333333375,
+      "coverage": 0.958,
+      "mean_estimate": 0.048966666666666665,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.32,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.0003666666666666679,
+      "coverage": 0.946,
+      "mean_estimate": 0.049633333333333335,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.736,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0008333333333333248,
+      "coverage": 0.956,
+      "mean_estimate": 0.10083333333333333,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.608,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.0014083333333333309,
+      "coverage": 0.916,
+      "mean_estimate": 0.09859166666666667,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.798,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.00027500000000001135,
+      "coverage": 0.936,
+      "mean_estimate": 0.099725,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.992,
+      "replications": 500,
+      "targets": 240,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.00037500000000000006,
+      "coverage": 0.948,
+      "mean_estimate": -0.00037500000000000006,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.052,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.0005875,
+      "coverage": 0.958,
+      "mean_estimate": -0.0005875,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.042,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": -0.00020000000000000004,
+      "coverage": 0.944,
+      "mean_estimate": -0.00020000000000000004,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.056,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.002125000000000002,
+      "coverage": 0.948,
+      "mean_estimate": 0.032125,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.108,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0009375000000000008,
+      "coverage": 0.926,
+      "mean_estimate": 0.0309375,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.204,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": -0.0012562500000000004,
+      "coverage": 0.946,
+      "mean_estimate": 0.02874375,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.512,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0009937499999999946,
+      "coverage": 0.94,
+      "mean_estimate": 0.05099375,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.26,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0011187499999999947,
+      "coverage": 0.948,
+      "mean_estimate": 0.05111875,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.41,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.0004312500000000011,
+      "coverage": 0.954,
+      "mean_estimate": 0.04956875,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.872,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": -0.002968750000000006,
+      "coverage": 0.934,
+      "mean_estimate": 0.09703125,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.684,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 8.124999999999105e-05,
+      "coverage": 0.942,
+      "mean_estimate": 0.10008125,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.9,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.00104375000000001,
+      "coverage": 0.964,
+      "mean_estimate": 0.09895625,
+      "pair_coupling": 0.9,
+      "rejection_rate": 1.0,
+      "replications": 500,
+      "targets": 320,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": -0.00292,
+      "coverage": 0.958,
+      "mean_estimate": -0.00292,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.042,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0008,
+      "coverage": 0.956,
+      "mean_estimate": 0.0008,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.044,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.00035999999999999997,
+      "coverage": 0.944,
+      "mean_estimate": 0.00035999999999999997,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.056,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.0
+    },
+    {
+      "bias": 0.0016100000000000003,
+      "coverage": 0.952,
+      "mean_estimate": 0.03161,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.134,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0017100000000000032,
+      "coverage": 0.956,
+      "mean_estimate": 0.03171,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.236,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0002050000000000038,
+      "coverage": 0.954,
+      "mean_estimate": 0.030205000000000003,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.608,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.03
+    },
+    {
+      "bias": 0.0004549999999999971,
+      "coverage": 0.938,
+      "mean_estimate": 0.050455,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.306,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0012549999999999992,
+      "coverage": 0.946,
+      "mean_estimate": 0.051255,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.482,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.00046500000000000014,
+      "coverage": 0.954,
+      "mean_estimate": 0.050465,
+      "pair_coupling": 0.9,
+      "rejection_rate": 0.918,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.05
+    },
+    {
+      "bias": 0.0010550000000000004,
+      "coverage": 0.934,
+      "mean_estimate": 0.101055,
+      "pair_coupling": 0.0,
+      "rejection_rate": 0.82,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.0009549999999999975,
+      "coverage": 0.958,
+      "mean_estimate": 0.100955,
+      "pair_coupling": 0.5,
+      "rejection_rate": 0.966,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.1
+    },
+    {
+      "bias": 0.0009549999999999975,
+      "coverage": 0.952,
+      "mean_estimate": 0.100955,
+      "pair_coupling": 0.9,
+      "rejection_rate": 1.0,
+      "replications": 500,
+      "targets": 400,
+      "true_risk_difference": 0.1
+    }
+  ]
+}

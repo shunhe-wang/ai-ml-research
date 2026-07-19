@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the technical report and repository release."
+title: "Before Measuring Context Carryover: Exact Matching, Task-Validity Screens, and a Pre-Confirmatory Stop in Rule-Bound Language-Model Decisions"
+type: software
+version: "0.1.0"
+date-released: "2026-07-19"
+repository-code: "https://github.com/shunhe-wang/ai-ml-research"
+url: "https://github.com/shunhe-wang/ai-ml-research/releases/tag/v0.1.0"
+authors:
+  - family-names: "Wang"
+    given-names: "Shunhe"
+license: MIT

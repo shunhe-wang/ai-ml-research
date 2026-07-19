@@ -1,0 +1,1031 @@
+{
+  "config": {
+    "replications": 5000,
+    "scenarios": [
+      {
+        "directional_risk_differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "discordance_probabilities": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "name": "homogeneous_null"
+      },
+      {
+        "directional_risk_differences": [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        "discordance_probabilities": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "name": "homogeneous_positive_5pp"
+      },
+      {
+        "directional_risk_differences": [
+          0.08,
+          0.04,
+          0.07,
+          -0.05,
+          0.08,
+          0.08
+        ],
+        "discordance_probabilities": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "name": "positive_mean_5pp_one_reversal"
+      },
+      {
+        "directional_risk_differences": [
+          0.08,
+          0.08,
+          0.08,
+          -0.08,
+          -0.08,
+          -0.08
+        ],
+        "discordance_probabilities": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "name": "balanced_sign_heterogeneity"
+      },
+      {
+        "directional_risk_differences": [
+          -0.05,
+          0.03,
+          0.08,
+          -0.12,
+          0.05,
+          0.01
+        ],
+        "discordance_probabilities": [
+          0.15,
+          0.15,
+          0.15,
+          0.2,
+          0.15,
+          0.15
+        ],
+        "name": "shrunk_pilot_sign_heterogeneity"
+      }
+    ],
+    "seed": 2026071739,
+    "targets_per_cell": [
+      60,
+      120,
+      240,
+      400
+    ]
+  },
+  "results": [
+    {
+      "all_positive_cell_rate": 0.0052,
+      "any_negative_cell_rate": 0.9638,
+      "cell_rejection_rates": [
+        0.0132,
+        0.0144,
+        0.0158,
+        0.02,
+        0.0142,
+        0.0148
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        -0.0008033333333333317,
+        1.3333333333332876e-05,
+        -0.0002400000000000007,
+        0.0008366666666666676,
+        -0.0007433333333333337,
+        -0.0005866666666666672
+      ],
+      "mean_discordance_rate": 0.09978166666666667,
+      "mean_pooled_estimate": -0.0002538888888888886,
+      "pooled_rejection_rate": 0.0372,
+      "replications": 5000,
+      "scenario": "homogeneous_null",
+      "sign_consistent_rejection_rate": 0.004,
+      "targets_per_cell": 60,
+      "total_targets": 360,
+      "true_cell_risk_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.3888,
+      "any_negative_cell_rate": 0.34,
+      "cell_rejection_rates": [
+        0.172,
+        0.172,
+        0.1742,
+        0.1658,
+        0.1722,
+        0.1746
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.0495300000000009,
+        0.04981000000000089,
+        0.05028333333333419,
+        0.048850000000000594,
+        0.04970000000000097,
+        0.04957333333333421
+      ],
+      "mean_discordance_rate": 0.09983444444444445,
+      "mean_pooled_estimate": 0.04962444444444445,
+      "pooled_rejection_rate": 0.8968,
+      "replications": 5000,
+      "scenario": "homogeneous_positive_5pp",
+      "sign_consistent_rejection_rate": 0.3874,
+      "targets_per_cell": 60,
+      "total_targets": 360,
+      "true_cell_risk_differences": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "true_mean_risk_difference": 0.05000000000000001
+    },
+    {
+      "all_positive_cell_rate": 0.0618,
+      "any_negative_cell_rate": 0.8586,
+      "cell_rejection_rates": [
+        0.3556,
+        0.1058,
+        0.2766,
+        0.0016,
+        0.3382,
+        0.3574
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.08037333333333455,
+        0.0394433333333334,
+        0.07022666666666771,
+        -0.049440000000000525,
+        0.08032666666666796,
+        0.08041666666666786
+      ],
+      "mean_discordance_rate": 0.1496288888888889,
+      "mean_pooled_estimate": 0.050224444444444315,
+      "pooled_rejection_rate": 0.7634,
+      "replications": 5000,
+      "scenario": "positive_mean_5pp_one_reversal",
+      "sign_consistent_rejection_rate": 0.0616,
+      "targets_per_cell": 60,
+      "total_targets": 360,
+      "true_cell_risk_differences": [
+        0.08,
+        0.04,
+        0.07,
+        -0.05,
+        0.08,
+        0.08
+      ],
+      "true_mean_risk_difference": 0.049999999999999996
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 0.9996,
+      "cell_rejection_rates": [
+        0.3458,
+        0.3274,
+        0.3424,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.0797533333333345,
+        0.07856666666666792,
+        0.0797033333333346,
+        -0.0794700000000012,
+        -0.08067666666666769,
+        -0.07956333333333454
+      ],
+      "mean_discordance_rate": 0.14949444444444446,
+      "mean_pooled_estimate": -0.0002811111111111114,
+      "pooled_rejection_rate": 0.033,
+      "replications": 5000,
+      "scenario": "balanced_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 60,
+      "total_targets": 360,
+      "true_cell_risk_differences": [
+        0.08,
+        0.08,
+        0.08,
+        -0.08,
+        -0.08,
+        -0.08
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 0.9992,
+      "cell_rejection_rates": [
+        0.0008,
+        0.0742,
+        0.3464,
+        0.0,
+        0.1572,
+        0.0338
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        -0.050876666666667306,
+        0.030203333333332995,
+        0.08121666666666771,
+        -0.11978000000000039,
+        0.051030000000000644,
+        0.009513333333333339
+      ],
+      "mean_discordance_rate": 0.15855555555555556,
+      "mean_pooled_estimate": 0.00021777777777777754,
+      "pooled_rejection_rate": 0.038,
+      "replications": 5000,
+      "scenario": "shrunk_pilot_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 60,
+      "total_targets": 360,
+      "true_cell_risk_differences": [
+        -0.05,
+        0.03,
+        0.08,
+        -0.12,
+        0.05,
+        0.01
+      ],
+      "true_mean_risk_difference": 8.673617379884035e-19
+    },
+    {
+      "all_positive_cell_rate": 0.0086,
+      "any_negative_cell_rate": 0.9678,
+      "cell_rejection_rates": [
+        0.0282,
+        0.031,
+        0.0292,
+        0.026,
+        0.0294,
+        0.0232
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.0005183333333333319,
+        0.0003783333333333334,
+        2.333333333333277e-05,
+        -0.00010666666666666774,
+        0.00028333333333333254,
+        -5.166666666666662e-05
+      ],
+      "mean_discordance_rate": 0.10011305555555555,
+      "mean_pooled_estimate": 0.0001741666666666668,
+      "pooled_rejection_rate": 0.0418,
+      "replications": 5000,
+      "scenario": "homogeneous_null",
+      "sign_consistent_rejection_rate": 0.0068,
+      "targets_per_cell": 120,
+      "total_targets": 720,
+      "true_cell_risk_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.7426,
+      "any_negative_cell_rate": 0.14,
+      "cell_rejection_rates": [
+        0.428,
+        0.4268,
+        0.4216,
+        0.426,
+        0.4298,
+        0.4218
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.04964000000000026,
+        0.05002500000000054,
+        0.049535000000000384,
+        0.04998166666666707,
+        0.05033666666666697,
+        0.04982000000000037
+      ],
+      "mean_discordance_rate": 0.09980194444444444,
+      "mean_pooled_estimate": 0.049889722222221926,
+      "pooled_rejection_rate": 0.9966,
+      "replications": 5000,
+      "scenario": "homogeneous_positive_5pp",
+      "sign_consistent_rejection_rate": 0.7424,
+      "targets_per_cell": 120,
+      "total_targets": 720,
+      "true_cell_risk_differences": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "true_mean_risk_difference": 0.05000000000000001
+    },
+    {
+      "all_positive_cell_rate": 0.047,
+      "any_negative_cell_rate": 0.9166,
+      "cell_rejection_rates": [
+        0.6854,
+        0.2228,
+        0.5656,
+        0.0004,
+        0.692,
+        0.6876
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.08071166666666622,
+        0.038540000000000185,
+        0.07007833333333296,
+        -0.04944000000000016,
+        0.08027666666666629,
+        0.08006499999999969
+      ],
+      "mean_discordance_rate": 0.15019027777777777,
+      "mean_pooled_estimate": 0.05003861111111095,
+      "pooled_rejection_rate": 0.9618,
+      "replications": 5000,
+      "scenario": "positive_mean_5pp_one_reversal",
+      "sign_consistent_rejection_rate": 0.047,
+      "targets_per_cell": 120,
+      "total_targets": 720,
+      "true_cell_risk_differences": [
+        0.08,
+        0.04,
+        0.07,
+        -0.05,
+        0.08,
+        0.08
+      ],
+      "true_mean_risk_difference": 0.049999999999999996
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.6956,
+        0.6924,
+        0.6862,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.08063666666666633,
+        0.0807099999999995,
+        0.07958166666666615,
+        -0.08058999999999966,
+        -0.07967166666666622,
+        -0.08019666666666644
+      ],
+      "mean_discordance_rate": 0.15018444444444445,
+      "mean_pooled_estimate": 7.833333333333298e-05,
+      "pooled_rejection_rate": 0.0364,
+      "replications": 5000,
+      "scenario": "balanced_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 120,
+      "total_targets": 720,
+      "true_cell_risk_differences": [
+        0.08,
+        0.08,
+        0.08,
+        -0.08,
+        -0.08,
+        -0.08
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.001,
+        0.152,
+        0.6798,
+        0.0,
+        0.3322,
+        0.0546
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        -0.050428333333333464,
+        0.03027000000000012,
+        0.07904166666666637,
+        -0.12023166666666675,
+        0.0502733333333334,
+        0.009829999999999936
+      ],
+      "mean_discordance_rate": 0.1583702777777778,
+      "mean_pooled_estimate": -0.0002074999999999994,
+      "pooled_rejection_rate": 0.0382,
+      "replications": 5000,
+      "scenario": "shrunk_pilot_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 120,
+      "total_targets": 720,
+      "true_cell_risk_differences": [
+        -0.05,
+        0.03,
+        0.08,
+        -0.12,
+        0.05,
+        0.01
+      ],
+      "true_mean_risk_difference": 8.673617379884035e-19
+    },
+    {
+      "all_positive_cell_rate": 0.0108,
+      "any_negative_cell_rate": 0.971,
+      "cell_rejection_rates": [
+        0.0326,
+        0.0344,
+        0.0364,
+        0.0374,
+        0.0338,
+        0.0326
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.0003208333333333324,
+        4.16666666666649e-06,
+        -4.916666666666656e-05,
+        0.0003191666666666671,
+        -0.00030250000000000014,
+        0.00010583333333333348
+      ],
+      "mean_discordance_rate": 0.10007166666666667,
+      "mean_pooled_estimate": 6.638888888888894e-05,
+      "pooled_rejection_rate": 0.045,
+      "replications": 5000,
+      "scenario": "homogeneous_null",
+      "sign_consistent_rejection_rate": 0.007,
+      "targets_per_cell": 240,
+      "total_targets": 1440,
+      "true_cell_risk_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.959,
+      "any_negative_cell_rate": 0.0242,
+      "cell_rejection_rates": [
+        0.7662,
+        0.7576,
+        0.7414,
+        0.761,
+        0.7476,
+        0.7594
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.050699999999999655,
+        0.05032833333333333,
+        0.0495591666666666,
+        0.05037499999999986,
+        0.04976749999999987,
+        0.04993416666666641
+      ],
+      "mean_discordance_rate": 0.10010736111111111,
+      "mean_pooled_estimate": 0.050110694444444555,
+      "pooled_rejection_rate": 1.0,
+      "replications": 5000,
+      "scenario": "homogeneous_positive_5pp",
+      "sign_consistent_rejection_rate": 0.959,
+      "targets_per_cell": 240,
+      "total_targets": 1440,
+      "true_cell_risk_differences": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "true_mean_risk_difference": 0.05000000000000001
+    },
+    {
+      "all_positive_cell_rate": 0.018,
+      "any_negative_cell_rate": 0.9738,
+      "cell_rejection_rates": [
+        0.9398,
+        0.4176,
+        0.8564,
+        0.0,
+        0.9388,
+        0.9314
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.0801116666666663,
+        0.039925000000000016,
+        0.06955250000000003,
+        -0.049536666666666604,
+        0.08004666666666631,
+        0.07990333333333328
+      ],
+      "mean_discordance_rate": 0.14980208333333334,
+      "mean_pooled_estimate": 0.05000041666666666,
+      "pooled_rejection_rate": 1.0,
+      "replications": 5000,
+      "scenario": "positive_mean_5pp_one_reversal",
+      "sign_consistent_rejection_rate": 0.018,
+      "targets_per_cell": 240,
+      "total_targets": 1440,
+      "true_cell_risk_differences": [
+        0.08,
+        0.04,
+        0.07,
+        -0.05,
+        0.08,
+        0.08
+      ],
+      "true_mean_risk_difference": 0.049999999999999996
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.9364,
+        0.94,
+        0.9384,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.07923916666666657,
+        0.07968833333333311,
+        0.07971416666666649,
+        -0.08018999999999965,
+        -0.07990583333333315,
+        -0.08007583333333299
+      ],
+      "mean_discordance_rate": 0.14996055555555557,
+      "mean_pooled_estimate": -0.0002550000000000005,
+      "pooled_rejection_rate": 0.0398,
+      "replications": 5000,
+      "scenario": "balanced_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 240,
+      "total_targets": 1440,
+      "true_cell_risk_differences": [
+        0.08,
+        0.08,
+        0.08,
+        -0.08,
+        -0.08,
+        -0.08
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.0,
+        0.2788,
+        0.9398,
+        0.0,
+        0.5914,
+        0.0804
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        -0.050294166666666626,
+        0.030090833333333337,
+        0.07971999999999982,
+        -0.12008166666666646,
+        0.049542499999999816,
+        0.010025000000000011
+      ],
+      "mean_discordance_rate": 0.15824458333333333,
+      "mean_pooled_estimate": -0.0001662500000000001,
+      "pooled_rejection_rate": 0.0376,
+      "replications": 5000,
+      "scenario": "shrunk_pilot_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 240,
+      "total_targets": 1440,
+      "true_cell_risk_differences": [
+        -0.05,
+        0.03,
+        0.08,
+        -0.12,
+        0.05,
+        0.01
+      ],
+      "true_mean_risk_difference": 8.673617379884035e-19
+    },
+    {
+      "all_positive_cell_rate": 0.0094,
+      "any_negative_cell_rate": 0.9796,
+      "cell_rejection_rates": [
+        0.0364,
+        0.0342,
+        0.0362,
+        0.037,
+        0.0374,
+        0.0358
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        -0.00021449999999999939,
+        -2.9500000000000114e-05,
+        -0.00021649999999999973,
+        1.5000000000000263e-05,
+        -8.849999999999983e-05,
+        -0.00041199999999999955
+      ],
+      "mean_discordance_rate": 0.10002516666666667,
+      "mean_pooled_estimate": -0.00015766666666666715,
+      "pooled_rejection_rate": 0.0396,
+      "replications": 5000,
+      "scenario": "homogeneous_null",
+      "sign_consistent_rejection_rate": 0.0072,
+      "targets_per_cell": 400,
+      "total_targets": 2400,
+      "true_cell_risk_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.9962,
+      "any_negative_cell_rate": 0.0018,
+      "cell_rejection_rates": [
+        0.926,
+        0.9326,
+        0.9298,
+        0.9268,
+        0.932,
+        0.933
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "mean_cell_estimates": [
+        0.0499260000000003,
+        0.05036850000000015,
+        0.04973650000000018,
+        0.04970800000000022,
+        0.050070500000000066,
+        0.05037200000000019
+      ],
+      "mean_discordance_rate": 0.09996091666666666,
+      "mean_pooled_estimate": 0.05003025000000134,
+      "pooled_rejection_rate": 1.0,
+      "replications": 5000,
+      "scenario": "homogeneous_positive_5pp",
+      "sign_consistent_rejection_rate": 0.9962,
+      "targets_per_cell": 400,
+      "total_targets": 2400,
+      "true_cell_risk_differences": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "true_mean_risk_difference": 0.05000000000000001
+    },
+    {
+      "all_positive_cell_rate": 0.0026,
+      "any_negative_cell_rate": 0.9956,
+      "cell_rejection_rates": [
+        0.9932,
+        0.6226,
+        0.9766,
+        0.0,
+        0.9962,
+        0.993
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.07957299999999881,
+        0.03993450000000003,
+        0.06993699999999964,
+        -0.05016200000000014,
+        0.07985849999999874,
+        0.07998899999999881
+      ],
+      "mean_discordance_rate": 0.15001216666666667,
+      "mean_pooled_estimate": 0.04985500000000074,
+      "pooled_rejection_rate": 1.0,
+      "replications": 5000,
+      "scenario": "positive_mean_5pp_one_reversal",
+      "sign_consistent_rejection_rate": 0.0026,
+      "targets_per_cell": 400,
+      "total_targets": 2400,
+      "true_cell_risk_differences": [
+        0.08,
+        0.04,
+        0.07,
+        -0.05,
+        0.08,
+        0.08
+      ],
+      "true_mean_risk_difference": 0.049999999999999996
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.995,
+        0.9938,
+        0.9944,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        0.08036149999999861,
+        0.08011099999999866,
+        0.08048449999999892,
+        -0.08021149999999898,
+        -0.080422999999999,
+        -0.079397499999999
+      ],
+      "mean_discordance_rate": 0.15001983333333332,
+      "mean_pooled_estimate": 0.00015416666666666698,
+      "pooled_rejection_rate": 0.0372,
+      "replications": 5000,
+      "scenario": "balanced_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 400,
+      "total_targets": 2400,
+      "true_cell_risk_differences": [
+        0.08,
+        0.08,
+        0.08,
+        -0.08,
+        -0.08,
+        -0.08
+      ],
+      "true_mean_risk_difference": 0.0
+    },
+    {
+      "all_positive_cell_rate": 0.0,
+      "any_negative_cell_rate": 1.0,
+      "cell_rejection_rates": [
+        0.0,
+        0.4258,
+        0.9942,
+        0.0,
+        0.799,
+        0.1152
+      ],
+      "cells": 6,
+      "discordance_probabilities": [
+        0.15,
+        0.15,
+        0.15,
+        0.2,
+        0.15,
+        0.15
+      ],
+      "mean_cell_estimates": [
+        -0.050419000000000117,
+        0.030414999999999935,
+        0.08002499999999858,
+        -0.12094400000000026,
+        0.05000550000000015,
+        0.01009750000000003
+      ],
+      "mean_discordance_rate": 0.15847566666666665,
+      "mean_pooled_estimate": -0.00013666666666666637,
+      "pooled_rejection_rate": 0.0434,
+      "replications": 5000,
+      "scenario": "shrunk_pilot_sign_heterogeneity",
+      "sign_consistent_rejection_rate": 0.0,
+      "targets_per_cell": 400,
+      "total_targets": 2400,
+      "true_cell_risk_differences": [
+        -0.05,
+        0.03,
+        0.08,
+        -0.12,
+        0.05,
+        0.01
+      ],
+      "true_mean_risk_difference": 8.673617379884035e-19
+    }
+  ]
+}

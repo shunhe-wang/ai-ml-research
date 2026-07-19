@@ -1,0 +1,975 @@
+{
+  "case_set_hash": "d2a6eadc1486cb1b5bd965286b03fef85ff24aef46bc3cb1ac790e793a668590",
+  "items": [
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00000",
+        "facts": {
+          "has_sanction": false,
+          "income": 2111,
+          "is_caregiver": false,
+          "residency_months": 8
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -111,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00001",
+        "facts": {
+          "has_sanction": false,
+          "income": 1623,
+          "is_caregiver": true,
+          "residency_months": 9
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 377,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00002",
+        "facts": {
+          "has_sanction": false,
+          "income": 2298,
+          "is_caregiver": false,
+          "residency_months": 13
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -298,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00003",
+        "facts": {
+          "has_sanction": false,
+          "income": 2381,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -381,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00004",
+        "facts": {
+          "has_sanction": false,
+          "income": 2564,
+          "is_caregiver": false,
+          "residency_months": 17
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -564,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00005",
+        "facts": {
+          "has_sanction": false,
+          "income": 2255,
+          "is_caregiver": false,
+          "residency_months": 17
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -255,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00006",
+        "facts": {
+          "has_sanction": false,
+          "income": 2313,
+          "is_caregiver": true,
+          "residency_months": 10
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -313,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00007",
+        "facts": {
+          "has_sanction": false,
+          "income": 1459,
+          "is_caregiver": true,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 841,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00008",
+        "facts": {
+          "has_sanction": false,
+          "income": 1637,
+          "is_caregiver": false,
+          "residency_months": 8
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 363,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00009",
+        "facts": {
+          "has_sanction": false,
+          "income": 2138,
+          "is_caregiver": true,
+          "residency_months": 7
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -138,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00010",
+        "facts": {
+          "has_sanction": false,
+          "income": 1824,
+          "is_caregiver": true,
+          "residency_months": 12
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 476,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00011",
+        "facts": {
+          "has_sanction": false,
+          "income": 1475,
+          "is_caregiver": false,
+          "residency_months": 9
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 525,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00012",
+        "facts": {
+          "has_sanction": true,
+          "income": 1792,
+          "is_caregiver": false,
+          "residency_months": 12
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "sanction_hard_block",
+        "trace": [
+          "sanction_hard_block"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00013",
+        "facts": {
+          "has_sanction": false,
+          "income": 1827,
+          "is_caregiver": true,
+          "residency_months": 7
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 173,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00014",
+        "facts": {
+          "has_sanction": true,
+          "income": 2539,
+          "is_caregiver": true,
+          "residency_months": 10
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "sanction_hard_block",
+        "trace": [
+          "sanction_hard_block"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00015",
+        "facts": {
+          "has_sanction": false,
+          "income": 2217,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -217,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00016",
+        "facts": {
+          "has_sanction": false,
+          "income": 1414,
+          "is_caregiver": false,
+          "residency_months": 8
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 586,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00017",
+        "facts": {
+          "has_sanction": false,
+          "income": 2148,
+          "is_caregiver": false,
+          "residency_months": 13
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -148,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00018",
+        "facts": {
+          "has_sanction": true,
+          "income": 1611,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "sanction_hard_block",
+        "trace": [
+          "sanction_hard_block"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00019",
+        "facts": {
+          "has_sanction": false,
+          "income": 2533,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -533,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00020",
+        "facts": {
+          "has_sanction": false,
+          "income": 1665,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 335,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00021",
+        "facts": {
+          "has_sanction": false,
+          "income": 1727,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 273,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00022",
+        "facts": {
+          "has_sanction": false,
+          "income": 1497,
+          "is_caregiver": false,
+          "residency_months": 8
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 503,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00023",
+        "facts": {
+          "has_sanction": true,
+          "income": 1900,
+          "is_caregiver": false,
+          "residency_months": 9
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -1,
+        "rule_id": "sanction_hard_block",
+        "trace": [
+          "sanction_hard_block"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00024",
+        "facts": {
+          "has_sanction": false,
+          "income": 2062,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -62,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00025",
+        "facts": {
+          "has_sanction": false,
+          "income": 2031,
+          "is_caregiver": false,
+          "residency_months": 8
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -31,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00026",
+        "facts": {
+          "has_sanction": false,
+          "income": 1982,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 18,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00027",
+        "facts": {
+          "has_sanction": false,
+          "income": 2224,
+          "is_caregiver": false,
+          "residency_months": 9
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": -224,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00028",
+        "facts": {
+          "has_sanction": false,
+          "income": 1798,
+          "is_caregiver": false,
+          "residency_months": 10
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "DENY",
+        "margin": 202,
+        "rule_id": "benefit_default_deny",
+        "trace": [
+          "benefit_default_deny"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00029",
+        "facts": {
+          "has_sanction": false,
+          "income": 1417,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 583,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00031",
+        "facts": {
+          "has_sanction": false,
+          "income": 1617,
+          "is_caregiver": false,
+          "residency_months": 12
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 383,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00032",
+        "facts": {
+          "has_sanction": false,
+          "income": 1942,
+          "is_caregiver": true,
+          "residency_months": 10
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 358,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00034",
+        "facts": {
+          "has_sanction": false,
+          "income": 2173,
+          "is_caregiver": true,
+          "residency_months": 12
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 127,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00038",
+        "facts": {
+          "has_sanction": false,
+          "income": 2282,
+          "is_caregiver": true,
+          "residency_months": 12
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 18,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00039",
+        "facts": {
+          "has_sanction": false,
+          "income": 1625,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 375,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00042",
+        "facts": {
+          "has_sanction": false,
+          "income": 1577,
+          "is_caregiver": true,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 723,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00043",
+        "facts": {
+          "has_sanction": false,
+          "income": 1469,
+          "is_caregiver": false,
+          "residency_months": 16
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 531,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00044",
+        "facts": {
+          "has_sanction": false,
+          "income": 2018,
+          "is_caregiver": true,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 282,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00047",
+        "facts": {
+          "has_sanction": false,
+          "income": 1902,
+          "is_caregiver": true,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 398,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00048",
+        "facts": {
+          "has_sanction": false,
+          "income": 1557,
+          "is_caregiver": true,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 743,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00049",
+        "facts": {
+          "has_sanction": false,
+          "income": 1810,
+          "is_caregiver": false,
+          "residency_months": 17
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 190,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00054",
+        "facts": {
+          "has_sanction": false,
+          "income": 1737,
+          "is_caregiver": true,
+          "residency_months": 11
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 563,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00062",
+        "facts": {
+          "has_sanction": false,
+          "income": 1879,
+          "is_caregiver": false,
+          "residency_months": 16
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 121,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00065",
+        "facts": {
+          "has_sanction": false,
+          "income": 1864,
+          "is_caregiver": false,
+          "residency_months": 14
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 136,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00067",
+        "facts": {
+          "has_sanction": false,
+          "income": 1643,
+          "is_caregiver": false,
+          "residency_months": 15
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 357,
+        "rule_id": "general_eligibility",
+        "trace": [
+          "general_eligibility"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00070",
+        "facts": {
+          "has_sanction": false,
+          "income": 2218,
+          "is_caregiver": true,
+          "residency_months": 13
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 82,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00071",
+        "facts": {
+          "has_sanction": false,
+          "income": 1469,
+          "is_caregiver": true,
+          "residency_months": 17
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 831,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "pilot-benefit-a-s2026071701-a00072",
+        "facts": {
+          "has_sanction": false,
+          "income": 1490,
+          "is_caregiver": true,
+          "residency_months": 16
+        },
+        "world": "benefit"
+      },
+      "decision": {
+        "label": "APPROVE",
+        "margin": 810,
+        "rule_id": "caregiver_exception",
+        "trace": [
+          "caregiver_exception"
+        ]
+      }
+    }
+  ],
+  "schema": {
+    "parameters": {
+      "caregiver_income_extension": 300,
+      "caregiver_residency_reduction": 2,
+      "income_ceiling": 2000,
+      "residency_months": 12
+    },
+    "schema_id": "pilot-benefit-a",
+    "world": "benefit"
+  }
+}
