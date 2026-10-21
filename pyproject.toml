@@ -12,7 +12,7 @@ license = { text = "MIT" }
 dependencies = []
 
 [project.optional-dependencies]
-mlx = ["mlx-lm==0.31.3"]
+mlx = ["mlx-lm==0.31.3", "certifi>=2026.10.19"]
 
 [project.scripts]
 carryover = "rule_carryover.cli:entrypoint"
